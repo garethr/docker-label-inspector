@@ -170,6 +170,3 @@ def validate(dockerfile, schema):
 
 cli.add_command(lint)
 cli.add_command(validate)
-
-if __name__ == '__main__':
-    cli()

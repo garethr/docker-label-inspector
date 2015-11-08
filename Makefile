@@ -1,10 +1,10 @@
 all: build
 
 lint:
-	@python cinspector.py lint
+	@dli lint
 
 validate:
-	@python cinspector.py validate
+	@dli validate
 
 build: lint validate
 	@echo "docker build"
