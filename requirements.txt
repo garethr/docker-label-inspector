@@ -1,0 +1,6 @@
+dockerfile-parse
+whoosh
+colorama
+singleton
+jsonschema
+click

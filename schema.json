@@ -1,0 +1,18 @@
+{
+  "title": "Dockerfile schema",
+  "type": "object",
+  "properties": {
+    "com.example.release-date": {
+      "type": "string"
+    },
+    "com.example.is-beta": {
+      "type": "string"
+    },
+    "com.example.version": {
+      "description": "Version",
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": ["com.example.is-beta", "com.example.version"]
+}
